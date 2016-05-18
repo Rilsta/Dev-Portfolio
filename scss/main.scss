@@ -10,7 +10,7 @@
 // Vendors
 
 @import
-  'vendors/reset';
+  'vendors/normalize';
 
 // Base
 
@@ -31,3 +31,5 @@
   'components/buttons';
 
 //Pages
+@import
+  'pages/portfolio';

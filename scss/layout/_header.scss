@@ -1,0 +1,15 @@
+.logo{
+  font-size: 3.5em;
+  margin: 0;
+  padding: 0;
+  color: $yellow;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.logo__sub-header{
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  color: $light-blue
+}
