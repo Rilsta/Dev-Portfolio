@@ -1,3 +1,20 @@
-nav{
+.links{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
 
+  font-size: 1.2em;
+
+  margin-top: 15px;
+  width: 100%;
+  a{
+    color: $dark-blue;
+    animation: bluefade 2s ease-in-out;
+  }
+}
+
+@keyframes bluefade {
+  0% { color:$second-color; }
+  100% { color: $dark-blue; }
 }

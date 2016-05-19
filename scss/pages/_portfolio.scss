@@ -1,7 +1,7 @@
 .container-main{
   display: flex;
   flex-flow: row wrap;
-  .container-one{
+  .box-one{
     height:33%;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
     background: $second-color;
     animation: colorChange 5s 1s ease-in-out infinite;
   }
-  .container-two{
+  .box-two{
     height:33%;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@
     background: $second-color;
     animation: colorChange 5s 2s ease-in-out infinite;
   }
-  .container-three{
+  .box-three{
     height:33%;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@
     background: $second-color;
     animation: colorChange 5s 3s ease-in-out infinite;
   }
-  .container-four{
+  .box-four{
     height:33%;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@
     background: $second-color;
     animation: colorChange 5s 4s ease-in-out infinite;
   }
-  .container-header{
+  .box-header{
     height:33%;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@
     background: $second-color;
     animation: colorChange 5s 5s ease-in-out infinite;
   }
-  .container-six{
+  .box-six{
     height:33%;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@
     background: $second-color;
     animation: colorChange 5s 6s ease-in-out infinite;
   }
-  .container-seven{
+  .box-seven{
     height:33%;
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@
     background: $second-color;
     animation: colorChange 5s 7s ease-in-out infinite;
   }
-  .container-eight{
+  .box-eight{
     height:33%;
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@
     background: $second-color;
     animation: colorChange 5s 8s ease-in-out infinite;
   }
-  .container-nine{
+  .box-nine{
     height:33%;
     display: flex;
     justify-content: center;
