@@ -14,16 +14,16 @@
     background: $second-color;
   }
   .box-one--colorchange{
-    animation: colorChange 5s 1s ease-in-out infinite;
+    animation: colorChange 5s .25s ease-in-out infinite;
   }
   .box-two--colorchange{
-    animation: colorChange 5s 2s ease-in-out infinite;
+    animation: colorChange 5s 1.25s ease-in-out infinite;
   }
   .box-three--colorchange{
-    animation: colorChange 5s 3s ease-in-out infinite;
+    animation: colorChange 5s 2.25s ease-in-out infinite;
   }
   .box-four--colorchange{
-    animation: colorChange 5s 4s ease-in-out infinite;
+    animation: colorChange 5s 3.25s ease-in-out infinite;
   }
   .box-header{
     display: flex;
@@ -32,18 +32,18 @@
     width: 33.33333333%;
     height: 33.33333333%;
     background: $second-color;
-    animation: colorChange 5s 5s ease-in-out infinite;
+    animation: colorChange 5s 4.25s ease-in-out infinite;
   }
   .box-six--colorchange{
-    animation: colorChange 5s 6s ease-in-out infinite;
+    animation: colorChange 5s 5.25s ease-in-out infinite;
   }
   .box-seven--colorchange{
-    animation: colorChange 5s 7s ease-in-out infinite;
+    animation: colorChange 5s 6.25s ease-in-out infinite;
   }
   .box-eight--colorchange{
-    animation: colorChange 5s 8s ease-in-out infinite;
+    animation: colorChange 5s 7.25s ease-in-out infinite;
   }
   .box-nine--colorchange{
-    animation: colorChange 5s 9s ease-in-out infinite;
+    animation: colorChange 5s 8.25s ease-in-out infinite;
   }
 }

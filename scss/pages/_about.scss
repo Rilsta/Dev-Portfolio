@@ -1,9 +1,22 @@
-body{
-  background: $light-blue
+.about-container{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;;
+  align-items: center;
+  background: $white;
+  width: 33.3333333%;
+  height: 100vh;
+  padding: 25px;
 }
 
-p{
-  background: $blue;
-  padding: 30px;
-  width: 500px;
+.m-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-image{
+  width: 200px;
+  border-radius: 50%;
+  z-index: 1;
 }

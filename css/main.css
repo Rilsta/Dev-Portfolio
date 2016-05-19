@@ -371,7 +371,8 @@ textarea {
 
 body {
   font-family: 'Open Sans';
-  color: #212121; }
+  color: #212121;
+  background: #14a5cc; }
 
 a {
   text-decoration: none; }
@@ -402,7 +403,7 @@ body::-webkit-scrollbar {
   font-size: 3.5em;
   margin: 0;
   padding: 0;
-  color: #fff666; }
+  color: #f6f6f6; }
 
 .logo__sub-header {
   text-align: right;
@@ -469,13 +470,13 @@ body::-webkit-scrollbar {
     color: #14a5cc;
     background: #14a5cc; }
   .container-main .box-one--colorchange {
-    animation: colorChange 5s 1s ease-in-out infinite; }
+    animation: colorChange 5s .25s ease-in-out infinite; }
   .container-main .box-two--colorchange {
-    animation: colorChange 5s 2s ease-in-out infinite; }
+    animation: colorChange 5s 1.25s ease-in-out infinite; }
   .container-main .box-three--colorchange {
-    animation: colorChange 5s 3s ease-in-out infinite; }
+    animation: colorChange 5s 2.25s ease-in-out infinite; }
   .container-main .box-four--colorchange {
-    animation: colorChange 5s 4s ease-in-out infinite; }
+    animation: colorChange 5s 3.25s ease-in-out infinite; }
   .container-main .box-header {
     display: flex;
     justify-content: center;
@@ -483,22 +484,34 @@ body::-webkit-scrollbar {
     width: 33.33333333%;
     height: 33.33333333%;
     background: #14a5cc;
-    animation: colorChange 5s 5s ease-in-out infinite; }
+    animation: colorChange 5s 4.25s ease-in-out infinite; }
   .container-main .box-six--colorchange {
-    animation: colorChange 5s 6s ease-in-out infinite; }
+    animation: colorChange 5s 5.25s ease-in-out infinite; }
   .container-main .box-seven--colorchange {
-    animation: colorChange 5s 7s ease-in-out infinite; }
+    animation: colorChange 5s 6.25s ease-in-out infinite; }
   .container-main .box-eight--colorchange {
-    animation: colorChange 5s 8s ease-in-out infinite; }
+    animation: colorChange 5s 7.25s ease-in-out infinite; }
   .container-main .box-nine--colorchange {
-    animation: colorChange 5s 9s ease-in-out infinite; }
+    animation: colorChange 5s 8.25s ease-in-out infinite; }
 
-body {
-  background: #14a5cc; }
+.about-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #f6f6f6;
+  width: 33.3333333%;
+  height: 100vh;
+  padding: 25px; }
 
-p {
-  background: #098eb2;
-  padding: 30px;
-  width: 500px; }
+.m-about {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.a-image {
+  width: 200px;
+  border-radius: 50%;
+  z-index: 1; }
 
 /*# sourceMappingURL=main.css.map */
