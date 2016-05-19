@@ -424,7 +424,9 @@ body::-webkit-scrollbar {
     color: #fff666; } }
 .container-main {
   display: flex;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  width: 100vw;
+  height: 100vh; }
   .container-main .box-one {
     height: 33%;
     display: flex;
@@ -432,7 +434,8 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 1s ease-in-out infinite; }
   .container-main .box-two {
@@ -442,7 +445,8 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 2s ease-in-out infinite; }
   .container-main .box-three {
@@ -452,7 +456,8 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 3s ease-in-out infinite; }
   .container-main .box-four {
@@ -462,7 +467,8 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 4s ease-in-out infinite; }
   .container-main .box-header {
@@ -471,7 +477,8 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 5s ease-in-out infinite; }
   .container-main .box-six {
@@ -481,7 +488,8 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 6s ease-in-out infinite; }
   .container-main .box-seven {
@@ -491,7 +499,8 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 7s ease-in-out infinite; }
   .container-main .box-eight {
@@ -501,7 +510,8 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 8s ease-in-out infinite; }
   .container-main .box-nine {
@@ -511,7 +521,8 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     color: #14a5cc;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 9s ease-in-out infinite; }
 

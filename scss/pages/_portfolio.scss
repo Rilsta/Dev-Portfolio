@@ -1,6 +1,8 @@
 .container-main{
   display: flex;
   flex-flow: row wrap;
+  width: 100vw;
+  height: 100vh;
   .box-one{
     height:33%;
     display: flex;
@@ -8,7 +10,8 @@
     align-items: center;
     font-size: 2em;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 1s ease-in-out infinite;
   }
@@ -19,7 +22,8 @@
     align-items: center;
     font-size: 2em;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 2s ease-in-out infinite;
   }
@@ -30,7 +34,8 @@
     align-items: center;
     font-size: 2em;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 3s ease-in-out infinite;
   }
@@ -41,7 +46,8 @@
     align-items: center;
     font-size: 2em;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 4s ease-in-out infinite;
   }
@@ -51,7 +57,8 @@
     justify-content: center;
     align-items: center;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 5s ease-in-out infinite;
   }
@@ -62,7 +69,8 @@
     align-items: center;
     font-size: 2em;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 6s ease-in-out infinite;
   }
@@ -73,7 +81,8 @@
     align-items: center;
     font-size: 2em;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 7s ease-in-out infinite;
   }
@@ -84,7 +93,8 @@
     align-items: center;
     font-size: 2em;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 8s ease-in-out infinite;
   }
@@ -95,7 +105,8 @@
     align-items: center;
     font-size: 2em;
     color: $second-color;
-    width: 33%;
+    width: 33.33333333%;
+    height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 9s ease-in-out infinite;
   }
