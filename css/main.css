@@ -451,6 +451,8 @@ body::-webkit-scrollbar {
     animation-name: fadeInUp; }
   .m-scene .scene__element--fadeinright {
     animation-name: fadeInRight; }
+  .m-scene.is-exiting .scene_element {
+    animation-direction: alternate-reverse; }
 
 .container-main {
   display: flex;
