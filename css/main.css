@@ -396,32 +396,48 @@ body::-webkit-scrollbar {
   width: 100%; }
   .links a {
     color: #085a70;
-    animation: bluefade 2s ease-in-out; }
+    animation: fadeIn 2s ease-in-out; }
 
-@keyframes bluefade {
-  0% {
-    color: #14a5cc; }
-  100% {
-    color: #085a70; } }
 .logo {
   font-size: 3.5em;
   margin: 0;
   padding: 0;
   color: #fff666;
-  animation: logofade .5s ease-in-out; }
+  animation: fadeInUp .5s ease-in; }
 
 .logo__sub-header {
   text-align: right;
   margin: 0;
   padding: 0;
   color: #085a70;
-  animation: bluefade .5s ease-in-out; }
+  animation: fadeInUp .5s ease-in; }
 
-@keyframes logofade {
+@keyframes fadeInRight {
   0% {
-    color: #14a5cc; }
+    opacity: 0;
+    transform: translate3d(100%, 0, 0); }
   100% {
-    color: #fff666; } }
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes colorChange {
+  0% {
+    background: #14a5cc; }
+  50% {
+    background: #098eb2; }
+  100% {
+    background: #14a5cc; } }
 .container-main {
   display: flex;
   flex-flow: row wrap;
@@ -526,26 +542,27 @@ body::-webkit-scrollbar {
     background: #14a5cc;
     animation: colorChange 5s 9s ease-in-out infinite; }
 
-@keyframes colorChange {
-  0% {
-    background: #14a5cc; }
-  50% {
-    background: #098eb2; }
-  100% {
-    background: #14a5cc; } }
-.about-container {
-  animation: fadeInRight .5s ease-in; }
+.m-scene {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; }
+  .m-scene .scene__element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both; }
+  .m-scene .scene__element--fadein {
+    animation-name: fadeIn; }
+  .m-scene .scene__element--fadeinup {
+    animation-name: fadeInUp; }
+  .m-scene .scene__element--fadeinright {
+    animation-name: fadeInRight; }
+
+body {
+  background: #14a5cc; }
 
 p {
   background: #098eb2;
-  padding: 30px; }
-
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0); }
-  100% {
-    opacity: 1;
-    transform: none; } }
+  padding: 30px;
+  width: 500px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,17 +3,12 @@
   margin: 0;
   padding: 0;
   color: $yellow;
-  animation: logofade .5s ease-in-out;
+  animation: fadeInUp .5s ease-in;
 }
 .logo__sub-header{
   text-align: right;
   margin: 0;
   padding: 0;
   color: $dark-blue;
-  animation: bluefade .5s ease-in-out;
-}
-
-@keyframes logofade {
-  0% { color:$second-color; }
-  100% { color: $yellow; }
+  animation: fadeInUp .5s ease-in;
 }

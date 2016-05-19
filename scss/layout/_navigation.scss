@@ -10,11 +10,6 @@
   width: 100%;
   a{
     color: $dark-blue;
-    animation: bluefade 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
   }
-}
-
-@keyframes bluefade {
-  0% { color:$second-color; }
-  100% { color: $dark-blue; }
 }

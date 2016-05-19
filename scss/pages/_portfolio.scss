@@ -111,9 +111,3 @@
     animation: colorChange 5s 9s ease-in-out infinite;
   }
 }
-
-@keyframes colorChange {
-  0% { background: $second-color; }
-  50% { background: $main-color; }
-  100% { background: $second-color; }
-}
