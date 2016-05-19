@@ -443,103 +443,38 @@ body::-webkit-scrollbar {
   flex-flow: row wrap;
   width: 100vw;
   height: 100vh; }
-  .container-main .box-one {
-    height: 33%;
+  .container-main .m-box {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    color: #14a5cc;
     width: 33.33333333%;
     height: 33.33333333%;
-    background: #14a5cc;
+    color: #14a5cc;
+    background: #14a5cc; }
+  .container-main .box-one--colorchange {
     animation: colorChange 5s 1s ease-in-out infinite; }
-  .container-main .box-two {
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #14a5cc;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: #14a5cc;
+  .container-main .box-two--colorchange {
     animation: colorChange 5s 2s ease-in-out infinite; }
-  .container-main .box-three {
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #14a5cc;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: #14a5cc;
+  .container-main .box-three--colorchange {
     animation: colorChange 5s 3s ease-in-out infinite; }
-  .container-main .box-four {
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #14a5cc;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: #14a5cc;
+  .container-main .box-four--colorchange {
     animation: colorChange 5s 4s ease-in-out infinite; }
   .container-main .box-header {
-    height: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #14a5cc;
     width: 33.33333333%;
     height: 33.33333333%;
     background: #14a5cc;
     animation: colorChange 5s 5s ease-in-out infinite; }
-  .container-main .box-six {
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #14a5cc;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: #14a5cc;
+  .container-main .box-six--colorchange {
     animation: colorChange 5s 6s ease-in-out infinite; }
-  .container-main .box-seven {
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #14a5cc;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: #14a5cc;
+  .container-main .box-seven--colorchange {
     animation: colorChange 5s 7s ease-in-out infinite; }
-  .container-main .box-eight {
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #14a5cc;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: #14a5cc;
+  .container-main .box-eight--colorchange {
     animation: colorChange 5s 8s ease-in-out infinite; }
-  .container-main .box-nine {
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #14a5cc;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: #14a5cc;
+  .container-main .box-nine--colorchange {
     animation: colorChange 5s 9s ease-in-out infinite; }
 
 .m-scene {

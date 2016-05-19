@@ -3,111 +3,47 @@
   flex-flow: row wrap;
   width: 100vw;
   height: 100vh;
-  .box-one{
-    height:33%;
+  .m-box{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    color: $second-color;
     width: 33.33333333%;
     height: 33.33333333%;
+    color: $second-color;
     background: $second-color;
+  }
+  .box-one--colorchange{
     animation: colorChange 5s 1s ease-in-out infinite;
   }
-  .box-two{
-    height:33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: $second-color;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: $second-color;
+  .box-two--colorchange{
     animation: colorChange 5s 2s ease-in-out infinite;
   }
-  .box-three{
-    height:33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: $second-color;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: $second-color;
+  .box-three--colorchange{
     animation: colorChange 5s 3s ease-in-out infinite;
   }
-  .box-four{
-    height:33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: $second-color;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: $second-color;
+  .box-four--colorchange{
     animation: colorChange 5s 4s ease-in-out infinite;
   }
   .box-header{
-    height:33%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $second-color;
     width: 33.33333333%;
     height: 33.33333333%;
     background: $second-color;
     animation: colorChange 5s 5s ease-in-out infinite;
   }
-  .box-six{
-    height:33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: $second-color;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: $second-color;
+  .box-six--colorchange{
     animation: colorChange 5s 6s ease-in-out infinite;
   }
-  .box-seven{
-    height:33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: $second-color;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: $second-color;
+  .box-seven--colorchange{
     animation: colorChange 5s 7s ease-in-out infinite;
   }
-  .box-eight{
-    height:33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: $second-color;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: $second-color;
+  .box-eight--colorchange{
     animation: colorChange 5s 8s ease-in-out infinite;
   }
-  .box-nine{
-    height:33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: $second-color;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: $second-color;
+  .box-nine--colorchange{
     animation: colorChange 5s 9s ease-in-out infinite;
   }
 }
