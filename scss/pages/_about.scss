@@ -1,24 +1,3 @@
-.m-scene{
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-
-  .scene__element{
-    animation-duration: 0.25s;
-    transition-timing-function: ease-in;
-    animation-fill-mode: both;
-  }
-  .scene__element--fadein{
-    animation-name: fadeIn;
-  }
-  .scene__element--fadeinup{
-    animation-name: fadeInUp;
-  }
-  .scene__element--fadeinright{
-    animation-name: fadeInRight;
-  }
-}
-
 body{
   background: $light-blue
 }

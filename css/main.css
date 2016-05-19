@@ -402,8 +402,7 @@ body::-webkit-scrollbar {
   font-size: 3.5em;
   margin: 0;
   padding: 0;
-  color: #fff666;
-  animation: fadeInUp .5s ease-in; }
+  color: #fff666; }
 
 .logo__sub-header {
   text-align: right;
@@ -438,6 +437,21 @@ body::-webkit-scrollbar {
     background: #098eb2; }
   100% {
     background: #14a5cc; } }
+.m-scene {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; }
+  .m-scene .scene__element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both; }
+  .m-scene .scene__element--fadein {
+    animation-name: fadeIn; }
+  .m-scene .scene__element--fadeinup {
+    animation-name: fadeInUp; }
+  .m-scene .scene__element--fadeinright {
+    animation-name: fadeInRight; }
+
 .container-main {
   display: flex;
   flex-flow: row wrap;
@@ -476,21 +490,6 @@ body::-webkit-scrollbar {
     animation: colorChange 5s 8s ease-in-out infinite; }
   .container-main .box-nine--colorchange {
     animation: colorChange 5s 9s ease-in-out infinite; }
-
-.m-scene {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center; }
-  .m-scene .scene__element {
-    animation-duration: 0.25s;
-    transition-timing-function: ease-in;
-    animation-fill-mode: both; }
-  .m-scene .scene__element--fadein {
-    animation-name: fadeIn; }
-  .m-scene .scene__element--fadeinup {
-    animation-name: fadeInUp; }
-  .m-scene .scene__element--fadeinright {
-    animation-name: fadeInRight; }
 
 body {
   background: #14a5cc; }
