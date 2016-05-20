@@ -390,13 +390,15 @@ body::-webkit-scrollbar {
 .links {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
-  margin-top: 15px;
-  width: 100%; }
+  width: 100%;
+  margin-right: 20%; }
   .links a {
-    color: #f6f6f6;
-    animation: fadeIn .25s ease-in-out; }
+    color: #909090;
+    animation: fadeIn .25s ease-in-out;
+    font-weight: bold;
+    padding: 10px; }
 
 .logo {
   font-size: 3.5em;
@@ -430,6 +432,13 @@ body::-webkit-scrollbar {
   100% {
     opacity: 1;
     transform: none; } }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
 @keyframes colorChange {
   0% {
     background: #505050; }
@@ -451,8 +460,8 @@ body::-webkit-scrollbar {
     animation-name: fadeInUp; }
   .m-scene .scene__element--fadeinright {
     animation-name: fadeInRight; }
-  .m-scene.is-exiting .scene_element {
-    animation-direction: alternate-reverse; }
+  .m-scene .scene__element--fadeinleft {
+    animation-name: fadeInLeft; }
 
 .container-main {
   display: flex;
@@ -499,6 +508,36 @@ body::-webkit-scrollbar {
       margin: 20px;
       animation: fadeIn .25s ease-in;
       color: #f6f6f6; }
+
+.p-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start; }
+
+.p-info {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: #f6f6f6;
+  width: 33.3333333%;
+  height: 100vh;
+  padding: 25px; }
+
+.p-box-container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 66.6666666%;
+  height: 100vh; }
+  .p-box-container .p-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    width: 50%;
+    height: 33.33333333%;
+    background: #909090;
+    border: 1px solid black; }
 
 .about-container {
   display: flex;

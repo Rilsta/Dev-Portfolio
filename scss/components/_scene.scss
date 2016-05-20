@@ -17,9 +17,7 @@
   .scene__element--fadeinright{
     animation-name: fadeInRight;
   }
-  &.is-exiting {
-      .scene_element {
-        animation-direction: alternate-reverse;
-      }
+  .scene__element--fadeinleft{
+    animation-name: fadeInLeft;
   }
 }
