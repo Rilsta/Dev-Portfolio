@@ -535,9 +535,7 @@ body::-webkit-scrollbar {
     align-items: center;
     font-size: 2em;
     width: 50%;
-    height: 33.33333333%;
-    background: #909090;
-    border: 1px solid black; }
+    height: 33.33333333%; }
 
 .about-container {
   display: flex;
