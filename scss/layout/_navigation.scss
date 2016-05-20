@@ -4,12 +4,10 @@
   justify-content: space-around;
   align-items: center;
 
-  font-size: 1.2em;
-
   margin-top: 15px;
   width: 100%;
   a{
-    color: $dark-blue;
-    animation: fadeIn 2s ease-in-out;
+    color: $white;
+    animation: fadeIn .25s ease-in-out;
   }
 }

@@ -372,7 +372,7 @@ textarea {
 body {
   font-family: 'Open Sans';
   color: #212121;
-  background: #14a5cc; }
+  background: #505050; }
 
 a {
   text-decoration: none; }
@@ -385,19 +385,18 @@ body::-webkit-scrollbar {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background: #098eb2; }
+  background: #212121; }
 
 .links {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  font-size: 1.2em;
   margin-top: 15px;
   width: 100%; }
   .links a {
-    color: #085a70;
-    animation: fadeIn 2s ease-in-out; }
+    color: #f6f6f6;
+    animation: fadeIn .25s ease-in-out; }
 
 .logo {
   font-size: 3.5em;
@@ -433,11 +432,11 @@ body::-webkit-scrollbar {
     transform: none; } }
 @keyframes colorChange {
   0% {
-    background: #14a5cc; }
+    background: #505050; }
   50% {
-    background: #098eb2; }
+    background: #212121; }
   100% {
-    background: #14a5cc; } }
+    background: #505050; } }
 .m-scene {
   display: flex;
   flex-flow: column wrap;
@@ -467,8 +466,8 @@ body::-webkit-scrollbar {
     font-size: 2em;
     width: 33.33333333%;
     height: 33.33333333%;
-    color: #14a5cc;
-    background: #14a5cc; }
+    color: #505050;
+    background: #505050; }
   .container-main .box-one--colorchange {
     animation: colorChange 5s .25s ease-in-out infinite; }
   .container-main .box-two--colorchange {
@@ -483,7 +482,7 @@ body::-webkit-scrollbar {
     align-items: center;
     width: 33.33333333%;
     height: 33.33333333%;
-    background: #14a5cc;
+    background: #505050;
     animation: colorChange 5s 4.25s ease-in-out infinite; }
   .container-main .box-six--colorchange {
     animation: colorChange 5s 5.25s ease-in-out infinite; }
@@ -492,7 +491,14 @@ body::-webkit-scrollbar {
   .container-main .box-eight--colorchange {
     animation: colorChange 5s 7.25s ease-in-out infinite; }
   .container-main .box-nine--colorchange {
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #f6f6f6;
     animation: colorChange 5s 8.25s ease-in-out infinite; }
+    .container-main .box-nine--colorchange a {
+      margin: 20px;
+      animation: fadeIn .25s ease-in;
+      color: #f6f6f6; }
 
 .about-container {
   display: flex;

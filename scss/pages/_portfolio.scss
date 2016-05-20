@@ -44,6 +44,14 @@
     animation: colorChange 5s 7.25s ease-in-out infinite;
   }
   .box-nine--colorchange{
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: $white;
     animation: colorChange 5s 8.25s ease-in-out infinite;
+    a{
+      margin: 20px;
+      animation: fadeIn .25s ease-in;
+      color: $white;
+    }
   }
 }
