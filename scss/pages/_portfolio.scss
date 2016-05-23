@@ -1,57 +1,86 @@
-.container-main{
+.p-container{
   display: flex;
   flex-flow: row wrap;
-  width: 100vw;
+  justify-content: flex-start;
+}
+.p-info{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: $white;
+  width: 33.3333333%;
   height: 100vh;
-  .m-box{
+  padding: 25px;
+}
+
+.p-gallery{
+  display: flex;
+  flex-flow: column wrap;
+  width: 66.6666666%;
+  height: 100vh;
+  .gallery__box{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
-    width: 33.33333333%;
+    width: 50%;
     height: 33.33333333%;
-    color: $second-color;
-    background: $second-color;
-  }
-  .box-one--colorchange{
-    animation: colorChange 5s .25s ease-in-out infinite;
-  }
-  .box-two--colorchange{
-    animation: colorChange 5s 1.25s ease-in-out infinite;
-  }
-  .box-three--colorchange{
-    animation: colorChange 5s 2.25s ease-in-out infinite;
-  }
-  .box-four--colorchange{
-    animation: colorChange 5s 3.25s ease-in-out infinite;
-  }
-  .box-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 33.33333333%;
-    height: 33.33333333%;
-    background: $second-color;
-    animation: colorChange 5s 4.25s ease-in-out infinite;
-  }
-  .box-six--colorchange{
-    animation: colorChange 5s 5.25s ease-in-out infinite;
-  }
-  .box-seven--colorchange{
-    animation: colorChange 5s 6.25s ease-in-out infinite;
-  }
-  .box-eight--colorchange{
-    animation: colorChange 5s 7.25s ease-in-out infinite;
-  }
-  .box-nine--colorchange{
-    align-items: flex-end;
-    justify-content: flex-end;
-    color: $white;
-    animation: colorChange 5s 8.25s ease-in-out infinite;
-    a{
-      margin: 20px;
-      animation: fadeIn .25s ease-in;
+    .after{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
       color: $white;
+      h3{
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+      }
     }
+    &:hover{
+       .after{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 250ms;
+        &:hover{
+          background: rgba(0, 0, 0, .5);
+        }
+      }
+    }
+  }
+  .box-1{
+    background-image: url("../scss/img/mondrian.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-2{
+    background-image: url("../scss/img/wild.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-3{
+    background: indianred;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-4{
+    background-image: url("../scss/img/candorthumb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-5{
+    background: goldenrod;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-6{
+    background: #369;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
