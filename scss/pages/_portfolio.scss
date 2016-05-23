@@ -6,12 +6,16 @@
 .p-info{
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   background: $white;
   width: 33.3333333%;
   height: 100vh;
   padding: 25px;
+}
+
+.p-skill-list{
+  flex-grow: 1;
 }
 
 .p-gallery{
@@ -34,10 +38,15 @@
       height: 100%;
       display: none;
       color: $white;
-      h3{
+      a{
         font-size: 1.5em;
         margin: 0;
         padding: 0;
+        color: $white;
+        transition: color 250ms;
+        &:hover{
+          color: $light-grey;
+        }
       }
     }
     &:hover{
