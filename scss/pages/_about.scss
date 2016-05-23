@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: colorChange 10s .25s ease-in-out infinite;
 }
 
 .a-image{

@@ -494,16 +494,16 @@ body::-webkit-scrollbar {
     background: #505050;
     animation: colorChange 5s 4.25s ease-in-out infinite; }
   .container-main .box-six--colorchange {
-    animation: colorChange 5s 5.25s ease-in-out infinite; }
+    animation: colorChange 5s 3.25s ease-in-out infinite; }
   .container-main .box-seven--colorchange {
-    animation: colorChange 5s 6.25s ease-in-out infinite; }
+    animation: colorChange 5s 2.25s ease-in-out infinite; }
   .container-main .box-eight--colorchange {
-    animation: colorChange 5s 7.25s ease-in-out infinite; }
+    animation: colorChange 5s 1.25s ease-in-out infinite; }
   .container-main .box-nine--colorchange {
     align-items: flex-end;
     justify-content: flex-end;
     color: #f6f6f6;
-    animation: colorChange 5s 8.25s ease-in-out infinite; }
+    animation: colorChange 5s .25s ease-in-out infinite; }
     .container-main .box-nine--colorchange a {
       margin: 20px;
       animation: fadeIn .25s ease-in;
@@ -550,7 +550,8 @@ body::-webkit-scrollbar {
 .m-about {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  animation: colorChange 10s .25s ease-in-out infinite; }
 
 .a-image {
   width: 200px;

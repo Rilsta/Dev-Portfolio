@@ -35,19 +35,19 @@
     animation: colorChange 5s 4.25s ease-in-out infinite;
   }
   .box-six--colorchange{
-    animation: colorChange 5s 5.25s ease-in-out infinite;
+    animation: colorChange 5s 3.25s ease-in-out infinite;
   }
   .box-seven--colorchange{
-    animation: colorChange 5s 6.25s ease-in-out infinite;
+    animation: colorChange 5s 2.25s ease-in-out infinite;
   }
   .box-eight--colorchange{
-    animation: colorChange 5s 7.25s ease-in-out infinite;
+    animation: colorChange 5s 1.25s ease-in-out infinite;
   }
   .box-nine--colorchange{
     align-items: flex-end;
     justify-content: flex-end;
     color: $white;
-    animation: colorChange 5s 8.25s ease-in-out infinite;
+    animation: colorChange 5s .25s ease-in-out infinite;
     a{
       margin: 20px;
       animation: fadeIn .25s ease-in;
