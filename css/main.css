@@ -518,12 +518,15 @@ body::-webkit-scrollbar {
 .p-info {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   background: #f6f6f6;
   width: 33.3333333%;
   height: 100vh;
   padding: 25px; }
+
+.p-skill-list {
+  flex-grow: 1; }
 
 .p-gallery {
   display: flex;
@@ -545,10 +548,14 @@ body::-webkit-scrollbar {
       height: 100%;
       display: none;
       color: #f6f6f6; }
-      .p-gallery .gallery__box .after h3 {
+      .p-gallery .gallery__box .after a {
         font-size: 1.5em;
         margin: 0;
-        padding: 0; }
+        padding: 0;
+        color: #f6f6f6;
+        transition: color 250ms; }
+        .p-gallery .gallery__box .after a:hover {
+          color: #909090; }
     .p-gallery .gallery__box:hover .after {
       display: flex;
       flex-flow: column wrap;
