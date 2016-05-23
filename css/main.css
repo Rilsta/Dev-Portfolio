@@ -524,18 +524,55 @@ body::-webkit-scrollbar {
   height: 100vh;
   padding: 25px; }
 
-.p-box-container {
+.p-gallery {
   display: flex;
   flex-flow: column wrap;
   width: 66.6666666%;
-  height: 100vh; }
-  .p-box-container .p-box {
+  height: 100vh;
+  border: 1px solid red; }
+  .p-gallery .gallery__box {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
     width: 50%;
-    height: 33.33333333%; }
+    height: 33.33333333%;
+    border: 1px solid blue; }
+    .p-gallery .gallery__box .after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none; }
+    .p-gallery .gallery__box:hover .after {
+      display: block;
+      background: rgba(0, 0, 0, 0.6); }
+  .p-gallery .box-1 {
+    background-image: url("../scss/img/mondrian.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .p-gallery .box-2 {
+    background-image: url("../scss/img/wild.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .p-gallery .box-3 {
+    background: indianred;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .p-gallery .box-4 {
+    background-image: url("../scss/img/candorthumb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .p-gallery .box-5 {
+    background: goldenrod;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .p-gallery .box-6 {
+    background: #369;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .about-container {
   display: flex;
