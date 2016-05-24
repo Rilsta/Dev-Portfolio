@@ -15,12 +15,15 @@
   }
   .box-one--colorchange{
     animation: colorChange 5s .25s ease-in-out infinite;
+    font-family: 'Raleway', sans-serif;
   }
   .box-two--colorchange{
     animation: colorChange 5s 1.25s ease-in-out infinite;
+    font-family: 'Raleway', sans-serif;
   }
   .box-three--colorchange{
     animation: colorChange 5s 2.25s ease-in-out infinite;
+    font-family: 'Raleway', sans-serif;
   }
   .box-four--colorchange{
     animation: colorChange 5s 3.25s ease-in-out infinite;
@@ -41,17 +44,17 @@
     animation: colorChange 5s 2.25s ease-in-out infinite;
   }
   .box-eight--colorchange{
-    animation: colorChange 5s 1.25s ease-in-out infinite;
-  }
-  .box-nine--colorchange{
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     color: $white;
-    animation: colorChange 5s .25s ease-in-out infinite;
+    animation: colorChange 5s 1.25s ease-in-out infinite;
     a{
       margin: 20px;
       animation: fadeIn .25s ease-in;
       color: $white;
     }
+  }
+  .box-nine--colorchange{
+    animation: colorChange 5s .25s ease-in-out infinite;
   }
 }
