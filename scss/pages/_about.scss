@@ -5,7 +5,7 @@
   align-items: center;
   background: $white;
   width: 33.3333333%;
-  height: 100vh;
+  height: 100%;
   padding: 25px;
 }
 
@@ -14,10 +14,24 @@
   justify-content: center;
   align-items: center;
   animation: colorChange 10s .25s ease-in-out infinite;
+  height: 100%;
 }
 
 .a-image{
   width: 200px;
   border-radius: 50%;
   z-index: 1;
+}
+
+@media screen and (max-width: 770px){
+  .about-container{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    display: inline-block;
+    p{
+      text-align: left;
+      font-size: 0.9em;
+    }
+  }
 }
