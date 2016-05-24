@@ -370,10 +370,15 @@ textarea {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Open Sans';
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   color: #212121;
   background: #505050;
   letter-spacing: 1px; }
+
+p, ul, li {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 25px; }
 
 a {
   text-decoration: none; }
@@ -405,14 +410,8 @@ body::-webkit-scrollbar {
   font-size: 3.5em;
   margin: 0;
   padding: 0;
-  color: #f6f6f6; }
-
-.logo__sub-header {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-  color: #909090;
-  animation: fadeInUp .5s ease-in; }
+  color: #f6f6f6;
+  font-weight: 100; }
 
 @keyframes fadeInRight {
   0% {
@@ -479,11 +478,14 @@ body::-webkit-scrollbar {
     color: #505050;
     background: #505050; }
   .container-main .box-one--colorchange {
-    animation: colorChange 5s .25s ease-in-out infinite; }
+    animation: colorChange 5s .25s ease-in-out infinite;
+    font-family: 'Raleway', sans-serif; }
   .container-main .box-two--colorchange {
-    animation: colorChange 5s 1.25s ease-in-out infinite; }
+    animation: colorChange 5s 1.25s ease-in-out infinite;
+    font-family: 'Raleway', sans-serif; }
   .container-main .box-three--colorchange {
-    animation: colorChange 5s 2.25s ease-in-out infinite; }
+    animation: colorChange 5s 2.25s ease-in-out infinite;
+    font-family: 'Raleway', sans-serif; }
   .container-main .box-four--colorchange {
     animation: colorChange 5s 3.25s ease-in-out infinite; }
   .container-main .box-header {
@@ -499,16 +501,16 @@ body::-webkit-scrollbar {
   .container-main .box-seven--colorchange {
     animation: colorChange 5s 2.25s ease-in-out infinite; }
   .container-main .box-eight--colorchange {
-    animation: colorChange 5s 1.25s ease-in-out infinite; }
-  .container-main .box-nine--colorchange {
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     color: #f6f6f6;
-    animation: colorChange 5s .25s ease-in-out infinite; }
-    .container-main .box-nine--colorchange a {
+    animation: colorChange 5s 1.25s ease-in-out infinite; }
+    .container-main .box-eight--colorchange a {
       margin: 20px;
       animation: fadeIn .25s ease-in;
       color: #f6f6f6; }
+  .container-main .box-nine--colorchange {
+    animation: colorChange 5s .25s ease-in-out infinite; }
 
 .p-container {
   display: flex;
@@ -573,7 +575,7 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     background-size: cover; }
   .p-gallery .box-3 {
-    background: indianred;
+    background-image: url("../scss/img/shorts.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
   .p-gallery .box-4 {
@@ -581,11 +583,11 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     background-size: cover; }
   .p-gallery .box-5 {
-    background: goldenrod;
+    background-image: url("../scss/img/cafe.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
   .p-gallery .box-6 {
-    background: #369;
+    background-image: url("../scss/img/blog.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
 
