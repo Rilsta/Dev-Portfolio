@@ -58,3 +58,22 @@
     animation: colorChange 5s .25s ease-in-out infinite;
   }
 }
+
+
+@media screen and (max-width: 770px) {
+  .container-main{
+    flex-flow: column;
+    width: 100%;
+    .m-box{
+      width: 100%;
+    }
+    .box-header{
+      flex-flow: column;
+      width:100%;
+    }
+    .box-four--colorchange,
+    .box-seven--colorchange{
+      display: none;
+    }
+  }
+}

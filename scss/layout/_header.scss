@@ -5,3 +5,9 @@
   color: $white;
   font-weight: 100;
 }
+
+@media screen and (max-width: 1075px) {
+  .logo{
+    font-size: 2.5em;
+  }
+}

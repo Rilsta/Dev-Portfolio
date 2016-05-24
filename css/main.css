@@ -397,9 +397,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-  margin-right: 20%; }
+  align-items: center; }
   .links a {
     color: #909090;
     animation: fadeIn .25s ease-in-out;
@@ -413,6 +411,9 @@ body::-webkit-scrollbar {
   color: #f6f6f6;
   font-weight: 100; }
 
+@media screen and (max-width: 1075px) {
+  .logo {
+    font-size: 2.5em; } }
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -512,6 +513,18 @@ body::-webkit-scrollbar {
   .container-main .box-nine--colorchange {
     animation: colorChange 5s .25s ease-in-out infinite; }
 
+@media screen and (max-width: 770px) {
+  .container-main {
+    flex-flow: column;
+    width: 100%; }
+    .container-main .m-box {
+      width: 100%; }
+    .container-main .box-header {
+      flex-flow: column;
+      width: 100%; }
+    .container-main .box-four--colorchange,
+    .container-main .box-seven--colorchange {
+      display: none; } }
 .p-container {
   display: flex;
   flex-flow: row wrap;
