@@ -414,6 +414,9 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 1075px) {
   .logo {
     font-size: 2.5em; } }
+@media screen and (max-width: 700px) {
+  .logo {
+    font-size: 2em; } }
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -521,10 +524,19 @@ body::-webkit-scrollbar {
       width: 100%; }
     .container-main .box-header {
       flex-flow: column;
-      width: 100%; }
+      width: 100%;
+      animation: colorChange 5s 3.25s ease-in-out infinite; }
     .container-main .box-four--colorchange,
     .container-main .box-seven--colorchange {
-      display: none; } }
+      display: none; }
+    .container-main .box-eight--colorchange {
+      animation: colorChange 5s 1.25s ease-in-out infinite; }
+    .container-main .box-six--colorchange {
+      animation: colorChange 5s 2.25s ease-in-out infinite; }
+    .container-main .box-one--colorchange,
+    .container-main .box-two--colorchange,
+    .container-main .box-three--colorchange {
+      font-size: 1.5em; } }
 .p-container {
   display: flex;
   flex-flow: row wrap;
@@ -546,6 +558,9 @@ body::-webkit-scrollbar {
 
 .p-skill-list {
   flex-grow: 1; }
+
+.arrow {
+  display: none; }
 
 .p-gallery {
   display: flex;
@@ -585,7 +600,7 @@ body::-webkit-scrollbar {
       align-items: center;
       transition: all 250ms; }
       .p-gallery .gallery__box:hover .after:hover {
-        background: rgba(0, 0, 0, 0.5); }
+        background: rgba(0, 0, 0, 0.7); }
   .p-gallery .box-1 {
     background-image: url("../scss/img/mondrian.jpg");
     background-repeat: no-repeat;
@@ -637,6 +652,17 @@ body::-webkit-scrollbar {
     .p-info a {
       color: #909090; }
 
+  .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 30%; }
+    .arrow .fa .fa-chevron-down {
+      display: block;
+      font-size: 20px;
+      color: #f6f6f6; }
+
   .p-gallery {
     display: block;
     width: 100%; }
@@ -645,8 +671,16 @@ body::-webkit-scrollbar {
       height: 200px;
       flex-flow: row wrap;
       margin-bottom: 15px; }
+      .p-gallery .gallery__box .after p {
+        font-size: 0.7em; }
       .p-gallery .gallery__box .after h3 a {
         font-size: 1.1em; } }
+.m-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
 .about-container {
   display: flex;
   flex-flow: column wrap;
@@ -657,26 +691,31 @@ body::-webkit-scrollbar {
   height: 100%;
   padding: 25px; }
 
-.m-about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: colorChange 10s .25s ease-in-out infinite;
-  height: 100%; }
-
 .a-image {
   width: 200px;
-  border-radius: 50%;
-  z-index: 1; }
+  border-radius: 50%; }
 
 @media screen and (max-width: 770px) {
   .about-container {
-    margin: auto;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
     width: 80%;
-    display: inline-block; }
+    padding: 10px; }
+    .about-container h1 {
+      font-size: 1.5em; }
     .about-container p {
       text-align: left;
-      font-size: 0.9em; } }
+      font-size: 0.7em;
+      margin: 0;
+      padding-bottom: 10px;
+      line-height: normal; }
+    .about-container a {
+      padding: 10px;
+      font-size: 0.8em; }
+
+  .a-image {
+    width: 100px; } }
 
 /*# sourceMappingURL=main.css.map */

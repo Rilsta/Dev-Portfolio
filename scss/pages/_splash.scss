@@ -70,10 +70,22 @@
     .box-header{
       flex-flow: column;
       width:100%;
+      animation: colorChange 5s 3.25s ease-in-out infinite;
     }
     .box-four--colorchange,
     .box-seven--colorchange{
       display: none;
+    }
+    .box-eight--colorchange{
+      animation: colorChange 5s 1.25s ease-in-out infinite;
+    }
+    .box-six--colorchange{
+      animation: colorChange 5s 2.25s ease-in-out infinite;
+    }
+    .box-one--colorchange,
+    .box-two--colorchange,
+    .box-three--colorchange{
+      font-size: 1.5em;
     }
   }
 }
