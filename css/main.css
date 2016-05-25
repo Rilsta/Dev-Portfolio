@@ -559,9 +559,6 @@ body::-webkit-scrollbar {
 .p-skill-list {
   flex-grow: 1; }
 
-.arrow {
-  display: none; }
-
 .p-gallery {
   display: flex;
   flex-flow: column wrap;
@@ -651,17 +648,6 @@ body::-webkit-scrollbar {
       display: none; }
     .p-info a {
       color: #909090; }
-
-  .arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    height: 30%; }
-    .arrow .fa .fa-chevron-down {
-      display: block;
-      font-size: 20px;
-      color: #f6f6f6; }
 
   .p-gallery {
     display: block;
