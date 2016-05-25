@@ -14,6 +14,11 @@
   padding: 25px;
 }
 
+.home-link{
+  padding: 15px 0;
+  color: $light-grey;
+}
+
 .p-skill-list{
   flex-grow: 1;
 }
@@ -104,9 +109,13 @@
     margin: 15px;;
   }
   .p-info{
+    display: block;
     flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
-    height: 30%;
+    height:275px;
+    padding: 0;
     background: $grey;
     color: $white;
     h1{
@@ -116,7 +125,6 @@
       font-size: .9em;
       margin: 0;
       padding: 0;
-      width: 80%;
     }
     .p-skill-list{
       display: none;

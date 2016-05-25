@@ -540,6 +540,10 @@ body::-webkit-scrollbar {
   height: 100vh;
   padding: 25px; }
 
+.home-link {
+  padding: 15px 0;
+  color: #909090; }
+
 .p-skill-list {
   flex-grow: 1; }
 
@@ -613,9 +617,13 @@ body::-webkit-scrollbar {
     margin: 15px; }
 
   .p-info {
+    display: block;
     flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
-    height: 30%;
+    height: 275px;
+    padding: 0;
     background: #505050;
     color: #f6f6f6; }
     .p-info h1 {
@@ -623,8 +631,7 @@ body::-webkit-scrollbar {
     .p-info p {
       font-size: .9em;
       margin: 0;
-      padding: 0;
-      width: 80%; }
+      padding: 0; }
     .p-info .p-skill-list {
       display: none; }
     .p-info a {
