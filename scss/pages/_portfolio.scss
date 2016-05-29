@@ -1,9 +1,9 @@
-.p-container{
+.p-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
 }
-.p-info{
+.p-info {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
@@ -13,29 +13,26 @@
   height: 100vh;
   padding: 25px;
 }
-
-.home-link{
+.home-link {
   padding: 15px 0;
   color: $light-grey;
 }
-
-.p-skill-list{
+.p-skill-list {
   flex-grow: 1;
 }
-
-.p-gallery{
+.p-gallery {
   display: flex;
   flex-flow: column wrap;
   width: 66.6666666%;
   height: 100vh;
-  .gallery__box{
+  .gallery__box {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 33.33333333%;
-    .after{
+    .after {
       position: absolute;
       top: 0;
       left: 0;
@@ -43,110 +40,109 @@
       height: 100%;
       display: none;
       color: $white;
-      a{
+      a {
         font-size: 1.5em;
         margin: 0;
         padding: 0;
         color: $white;
         transition: color 250ms;
-        &:hover{
+        &:hover {
           color: $light-grey;
         }
       }
-      p{
+      p {
         margin: 0;
         padding: 0;
       }
     }
-    &:hover{
-       .after{
+    &:hover {
+      .after {
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
         transition: all 250ms;
-        &:hover{
+        &:hover {
           background: rgba(0, 0, 0, .7);
         }
       }
     }
   }
-  .box-1{
+  .box-1 {
     background-image: url("../scss/img/mondrian.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .box-2{
+  .box-2 {
     background-image: url("../scss/img/wild.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .box-3{
+  .box-3 {
     background-image: url("../scss/img/shorts.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .box-4{
+  .box-4 {
     background-image: url("../scss/img/candorthumb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .box-5{
+  .box-5 {
     background-image: url("../scss/img/cafe.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .box-6{
+  .box-6 {
     background-image: url("../scss/img/blog.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
-
 @media screen and (max-width: 770px) {
-  .p-container{
+  .p-container {
     flex-flow: column wrap;
-    margin: 15px;;
+    margin: 15px;
   }
-  .p-info{
+  .p-info {
     display: block;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    height:275px;
+    height: 275px;
     padding: 0;
     background: $grey;
     color: $white;
-    h1{
+    h1 {
       font-size: 1.5em;
     }
-    p{
-      font-size: .9em;
+    p {
+      font-size: 0.9em;
       margin: 0;
       padding: 0;
     }
-    .p-skill-list{
+    .p-skill-list {
       display: none;
     }
-    a{
+    a {
       color: $light-grey;
     }
   }
-  .p-gallery{
+  .p-gallery {
     display: block;
     width: 100%;
-    .gallery__box{
+    .gallery__box {
       width: 100%;
       height: 200px;
       flex-flow: row wrap;
       margin-bottom: 15px;
-      .after{
-        p{
+      .after {
+        p {
           font-size: 0.7em;
         }
       }
-      .after h3 a{
+      .after h3 a {
         font-size: 1.1em;
       }
     }

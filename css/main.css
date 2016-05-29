@@ -400,7 +400,7 @@ body::-webkit-scrollbar {
   align-items: center; }
   .links a {
     color: #909090;
-    animation: fadeIn .25s ease-in-out;
+    animation: fadeIn 0.25s ease-in-out;
     font-weight: bold;
     padding: 10px; }
 
@@ -482,7 +482,7 @@ body::-webkit-scrollbar {
     color: #505050;
     background: #505050; }
   .container-main .box-one--colorchange {
-    animation: colorChange 5s .25s ease-in-out infinite;
+    animation: colorChange 5s 0.25s ease-in-out infinite;
     font-family: 'Raleway', sans-serif; }
   .container-main .box-two--colorchange {
     animation: colorChange 5s 1.25s ease-in-out infinite;
@@ -511,10 +511,10 @@ body::-webkit-scrollbar {
     animation: colorChange 5s 1.25s ease-in-out infinite; }
     .container-main .box-eight--colorchange a {
       margin: 20px;
-      animation: fadeIn .25s ease-in;
+      animation: fadeIn 0.25s ease-in;
       color: #f6f6f6; }
   .container-main .box-nine--colorchange {
-    animation: colorChange 5s .25s ease-in-out infinite; }
+    animation: colorChange 5s 0.25s ease-in-out infinite; }
 
 @media screen and (max-width: 770px) {
   .container-main {
@@ -534,8 +534,8 @@ body::-webkit-scrollbar {
     .container-main .box-six--colorchange {
       animation: colorChange 5s 2.25s ease-in-out infinite; }
     .container-main .box-one--colorchange,
-    .container-main .box-two--colorchange,
-    .container-main .box-three--colorchange {
+    .container-main .box-three--colorchange,
+    .container-main .box-two--colorchange {
       font-size: 1.5em; } }
 .p-container {
   display: flex;
@@ -641,7 +641,7 @@ body::-webkit-scrollbar {
     .p-info h1 {
       font-size: 1.5em; }
     .p-info p {
-      font-size: .9em;
+      font-size: 0.9em;
       margin: 0;
       padding: 0; }
     .p-info .p-skill-list {

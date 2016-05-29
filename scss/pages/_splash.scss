@@ -1,9 +1,9 @@
-.container-main{
+.container-main {
   display: flex;
   flex-flow: row wrap;
   width: 100vw;
   height: 100vh;
-  .m-box{
+  .m-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,22 +13,22 @@
     color: $second-color;
     background: $second-color;
   }
-  .box-one--colorchange{
-    animation: colorChange 5s .25s ease-in-out infinite;
+  .box-one--colorchange {
+    animation: colorChange 5s 0.25s ease-in-out infinite;
     font-family: 'Raleway', sans-serif;
   }
-  .box-two--colorchange{
+  .box-two--colorchange {
     animation: colorChange 5s 1.25s ease-in-out infinite;
     font-family: 'Raleway', sans-serif;
   }
-  .box-three--colorchange{
+  .box-three--colorchange {
     animation: colorChange 5s 2.25s ease-in-out infinite;
     font-family: 'Raleway', sans-serif;
   }
-  .box-four--colorchange{
+  .box-four--colorchange {
     animation: colorChange 5s 3.25s ease-in-out infinite;
   }
-  .box-header{
+  .box-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,54 +37,52 @@
     background: $second-color;
     animation: colorChange 5s 4.25s ease-in-out infinite;
   }
-  .box-six--colorchange{
+  .box-six--colorchange {
     animation: colorChange 5s 3.25s ease-in-out infinite;
   }
-  .box-seven--colorchange{
+  .box-seven--colorchange {
     animation: colorChange 5s 2.25s ease-in-out infinite;
   }
-  .box-eight--colorchange{
+  .box-eight--colorchange {
     align-items: flex-end;
     justify-content: center;
     color: $white;
     animation: colorChange 5s 1.25s ease-in-out infinite;
-    a{
+    a {
       margin: 20px;
-      animation: fadeIn .25s ease-in;
+      animation: fadeIn 0.25s ease-in;
       color: $white;
     }
   }
-  .box-nine--colorchange{
-    animation: colorChange 5s .25s ease-in-out infinite;
+  .box-nine--colorchange {
+    animation: colorChange 5s 0.25s ease-in-out infinite;
   }
 }
-
-
 @media screen and (max-width: 770px) {
-  .container-main{
+  .container-main {
     flex-flow: column;
     width: 100%;
-    .m-box{
+    .m-box {
       width: 100%;
     }
-    .box-header{
+    .box-header {
       flex-flow: column;
-      width:100%;
+      width: 100%;
       animation: colorChange 5s 3.25s ease-in-out infinite;
     }
     .box-four--colorchange,
-    .box-seven--colorchange{
+    .box-seven--colorchange {
       display: none;
     }
-    .box-eight--colorchange{
+    .box-eight--colorchange {
       animation: colorChange 5s 1.25s ease-in-out infinite;
     }
-    .box-six--colorchange{
+    .box-six--colorchange {
       animation: colorChange 5s 2.25s ease-in-out infinite;
     }
     .box-one--colorchange,
-    .box-two--colorchange,
-    .box-three--colorchange{
+    .box-three--colorchange,
+    .box-two--colorchange {
       font-size: 1.5em;
     }
   }

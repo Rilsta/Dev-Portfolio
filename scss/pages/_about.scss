@@ -1,12 +1,10 @@
-
-.m-about{
+.m-about {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-
-.about-container{
+.about-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -16,39 +14,35 @@
   height: 100%;
   padding: 25px;
 }
-
-.a-image{
+.a-image {
   width: 200px;
   border-radius: 50%;
 }
-
-@media screen and (max-width: 770px){
-  .m-about{
-    
-  }
-  .about-container{
+@media screen and (max-width: 770px) {
+  .m-about {}
+  .about-container {
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     width: 80%;
     padding: 10px;
-    h1{
+    h1 {
       font-size: 1.5em;
     }
-    p{
+    p {
       text-align: left;
       font-size: 0.7em;
       margin: 0;
       padding-bottom: 10px;
       line-height: normal;
     }
-    a{
+    a {
       padding: 10px;
       font-size: 0.8em;
     }
   }
-  .a-image{
+  .a-image {
     width: 100px;
   }
 }

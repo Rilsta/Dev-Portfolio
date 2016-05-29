@@ -1,39 +1,14 @@
 @charset 'UTF-8';
 @import "bourbon/bourbon";
-
 // Configs
-
-@import
-  'utils/variables',
-  'utils/mixins';
-
+@import 'utils/variables', 'utils/mixins';
 // Vendors
-
-@import
-  'vendors/normalize';
-
+@import 'vendors/normalize';
 // Base
-
-@import
-  'base/base',
-  'base/helpers';
-
+@import 'base/base', 'base/helpers';
 //Layout
-
-@import
-  'layout/extends',
-  'layout/navigation',
-  'layout/header',
-  'layout/footer';
-
+@import 'layout/extends', 'layout/navigation', 'layout/header', 'layout/footer';
 //Components
-@import
-  'components/buttons',
-  'animations/animations',
-  'components/scene';
-
+@import 'components/buttons', 'animations/animations', 'components/scene';
 //Pages
-@import
-  'pages/splash',
-  'pages/portfolio',
-  'pages/about';
+@import 'pages/splash', 'pages/portfolio', 'pages/about';

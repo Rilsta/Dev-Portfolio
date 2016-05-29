@@ -1,19 +1,17 @@
-.logo{
+.logo {
   font-size: 3.5em;
   margin: 0;
   padding: 0;
   color: $white;
   font-weight: 100;
 }
-
 @media screen and (max-width: 1075px) {
-  .logo{
+  .logo {
     font-size: 2.5em;
   }
 }
-
 @media screen and (max-width: 700px) {
-  .logo{
+  .logo {
     font-size: 2em;
   }
 }
